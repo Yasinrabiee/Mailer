@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Mail Function</title>
+	<title>Mailer</title>
 	<link rel="stylesheet" href="themes/css/bootstrap.rtl.min.css">
 	<link rel="stylesheet" href="themes/css/style.css">
 	<script src="themes/js/jquery.min.js"></script>
@@ -11,7 +11,7 @@
 <body>
 	<form action="" method="post" autocomplete="on" class="w-100 m-auto"  id="form">
 		<div class="alert alert-secondary text-center">فرم تماس با ما</div>	
-		<!-- <br> -->
+
 		<div class="form-floating mb-3">
 			<input maxlength="50" dir="rtl" autofocus required type="text" class="form-control" name="name" id="name" placeholder="Full name">
 			<label for="name">نام کامل شما</label>
@@ -28,6 +28,7 @@
 			<textarea id="message" name="message" placeholder="Your message" class="form-control" required></textarea>
 			<label for="message">پیغام شما</label>
 		</div>
+		
 		<button class="btn btn-primary w-100 py-2" type="submit" name="send">ارسال</button>
 		<div id="result"></div>
 	</form>
